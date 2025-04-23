@@ -6,7 +6,7 @@
 
 html, body{
     height: 100vh; /* Usa a altura total do navegador */
-    width: 100vw; /* usa a largura total do anvegador */
+    width: 100vw; /* usa a largura total do navegador */
     background-color: black;
 }
 
@@ -38,4 +38,17 @@ iframe#tela{
     left: 22px;
     width: 267px;
     height: 473px;
+}
+
+section#redes img{
+    width: 80px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px black;
+    box-sizing: border-box; /* mantém a borda fixa com o efeito hover */
+}
+section#redes img:hover{
+    border: 1px solid white;
+    transform: translate(-2px, -2px );
+    transition: 0.8s;
 }
